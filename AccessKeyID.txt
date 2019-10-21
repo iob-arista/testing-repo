@@ -1,0 +1,42 @@
+This notification is automatically generated.
+
+
+
+Please do not remove the reference number from the subject line.
+
+
+
+A new comment was created on your recent case ( 01240298 ). To view the details of this case, provide input or add attachments, please click here.
+
+
+
+Account: Arista Networks
+
+
+
+Comment: Hi,
+
+Please review the information listed below.
+
+These details are based on the sample listed below.
+
+wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+KeyID: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Access KeyID: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+First sample was not detected as there was no proximity keyword to capture. In second and third samples KeyID does not have a space (it should be Key ID) hence they did not match.
+
+We were able to successfully generate incidents in out test environment after modifying the samples you shared with us.
+
+AWS Secret Key wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Access Key ID: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+The Regex used for this matching should be (?<![A-Za-z0-9/+=])[A-Za-z0-9/+=]{40}(?![A-Za-z0-9/+=]) if one needs to check in regex tester.
+
+Above matching is for DP AWS Secret Access Key. There is another AWS Datapattern for matching AWS Access Key AWS Access Key ID . This data pattern will only match the access keys which start with AKIA and is a 20 letter alpha numeric key in all capitals. for example AKIA1256TYRT56545678
+
+Best Regards,
+
+Nick Trubic | Sr. Technical Support Engineer
+Shift Time: 7am-4pm PST
+Support Contact: Phone: 866-898-9087
